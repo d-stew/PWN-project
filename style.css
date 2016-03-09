@@ -1,4 +1,3 @@
-
 /*About page*/
 img.about-banner {
   width: 100%;
@@ -8,6 +7,19 @@ img.about-banner {
 img.gap {
   position: absolute;
   margin-left: auto;
+  margin-right: auto;
+  top: 20%;
+}
+
+/*Products Page*/
+img.products-banner {
+  width: 100%;
+  position: relative;
+}
+
+img.products {
+  position: absolute;
+  margin-left: 25%;
   margin-right: auto;
   top: 20%;
 }
