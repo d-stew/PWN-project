@@ -80,19 +80,19 @@ h1.logo {
 img.banner {
   width: 100%;
   position: absolute;
+  max-height: 100vh;
 }
 
 img.name {
-  height: 25%;
-  top: 50%;
+  width: 50%;
+  top: 1%;
   position: absolute;
-  left: 3%;
+  left: 1%;
 }
 
 .header>h3 {
   position: absolute;
-  left: 10%;
-  bottom: 12%;
+  bottom: 20%;
   color: black;
   font-size: 28px;
 }
@@ -101,7 +101,7 @@ div.about-1 {
   position: absolute;
   margin-top: 50%;
   display: inline-flex;
-  height: 60vh;
+  height: 100vh;
 }
 
 #cycle {
