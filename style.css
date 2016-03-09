@@ -1,0 +1,52 @@
+.nav-tabs {
+  float: right;
+}
+
+.nav {
+  padding-right: 5%;
+  margin-top: 1%;
+}
+
+.navbar-default {
+  backround: none;
+}
+
+h1.logo {
+  margin-left: 5%;
+  display: inline-block;
+}
+
+
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+img.banner {
+  width: 100%;
+  position: absolute;
+}
+
+img.name {
+  height: 15%;
+  top: 10%;
+  position: fixed;
+}
+
+.header>h1 {
+  position: fixed;
+  left: 3%;
+  top: 20%;
+  color: white;
+  font-size: 88px;
+}
+
+.header>h3 {
+    position: fixed;
+    left: 3%;
+    top: 45%;
+    color: white;
+    font-size: 55px;
+}
