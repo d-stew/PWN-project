@@ -1,11 +1,29 @@
 
+/*About page*/
+img.about-banner {
+  width: 100%;
+  position: relative;
+}
+
+img.gap {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20%;
+}
+
+/*Index page*/
 .nav {
   padding-right: 5%;
   margin-top: 1%;
 }
 
+.navbar-fixed-top {
+  position: absolute;
+}
+
 .navbar-default {
-  background: rgb(16, 22, 78);
+  background: none;
   border: none;
 }
 
@@ -44,21 +62,88 @@ img.banner {
 
 img.name {
   height: 25%;
-  top: 25%;
+  top: 50%;
   position: absolute;
   left: 3%;
 }
 
 .header>h3 {
   position: absolute;
-  left: 3%;
-  bottom: 27%;
-  color: white;
-  font-size: 42px;
+  left: 10%;
+  bottom: 12%;
+  color: black;
+  font-size: 28px;
 }
 
-div.about {
-    position: absolute;
-    margin-top: 50%;
-    display: inline-flex;
+div.about-1 {
+  position: absolute;
+  margin-top: 50%;
+  display: inline-flex;
+  height: 60vh;
+}
+
+#cycle {
+  margin-top: 45%;
+  margin-left: 60%;
+  height: 240%;
+  width: 240%;
+}
+
+div.description {
+  margin-top: 5%;
+  float: right;
+  text-align: center;
+}
+
+div.description>p {
+  font-size: 16px;
+}
+
+div.about-2 {
+  margin-top: 85%;
+  height: 75%;
+  /*bottom: 0;*/
+  background-color: rgb(17, 23, 78);
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+div.about-2>div>h3 {
+  color: white;
+  text-align: center;
+}
+
+.brands {
+  display: flex;
+}
+
+.img-circle {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  padding: 15px;
+}
+
+img.bottom-banner {
+  width: 100%;
+  position: absolute;
+}
+
+.contact-icons {
+  text-align: center;
+  margin-bottom: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+span.glyphicon {
+  font-size: 72px;
+  text-align: center;
+  background-color: rgb(17, 23, 78);
+  color: white;
+  border-radius: 90%;
+  padding: 2%;
 }
