@@ -12,6 +12,16 @@ img.gap {
 }
 
 /*Products Page*/
+.nav-products>li {
+  color: black;
+}
+
+.nav-products>li>a {
+  color: black;
+  font-weight: 800;
+  font-size: 22px;
+}
+
 img.products-banner {
   width: 100%;
   position: relative;
