@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Pacific Wholesale Network</title>
+  <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <!-- Optional theme -->
@@ -16,52 +17,63 @@
 
   <div class="container-fluid">
     <nav class="navbar navbar-default navbar-fixed-top">
-      <h1 class="logo">PWN</h1>
+      <img class="logo" src="images/logo.png">
       <ul class="nav nav-tabs">
-        <li role="presentation"><a href="index.html">Home</a></li>
-        <li role="presentation"><a href="about.html">About</a></li>
-        <li role="presentation"><a href="products.html">Products</a></li>
-        <li role="presentation"><a href="#">Portal</a></li>
-        <li role="presentation"><a href="#">Find Our Products</a></li>
-        <li role="presentation"><a href="#">Contact Us</a></li>
+        <li role="presentation" class="active"><a href="index.html">HOME</a></li>
+        <li role="presentation"><a href="about.html">ABOUT</a></li>
+        <li role="presentation"><a href="products.html">PRODUCTS</a></li>
+        <li role="presentation"><a href="#">PORTAL</a></li>
+        <li role="presentation"><a href="#">FIND OUR PRODUCTS</a></li>
+        <li role="presentation"><a href="#">CONTACT US</a></li>
       </ul>
     </nav>
   </div>
 
-  <div class="header center-block">
-    <img class="banner" src="images/apostles.jpg">
-    <img class="name" src="images/pwn.png">
-  </div>
-
-  <div class="container-fluid">
-    <div class="row about-1">
-      <div class="col-md-2">
-        <img id="cycle" alt="PWN Cycle" src="images/cycle.png">
-      </div>
-      <div class="col-md-4 col-md-offset-5 description">
-        <h1>ABOUT</h1>
-        <br>
-        <p>Pacific Wholesale Network offers brands and their products channels for Sales, Distribution, Transportation, Marketing & Promotion to hundreds of retailers and their customers. Our strategy is to be more than just a distributor of products, and to instead take the time to educate retailers, budtenders and consumers about both the quality and value proposition of a superior line of products.</p>
-      </div>
+  <div class="header">
+    <img class="banner" src="images/about-banner.png">
+    <div class="name">
+      <img class="name" src="images/pwn.png">
     </div>
   </div>
 
-  <div class="container-fluid about-2">
-    <div class="row">
-      <h3>Our Manufacturers</h3>
-      <br>
-      <div class="brands">
-        <img class="img-circle" src="images/marley.jpeg">
-        <img class="img-circle" src="images/bhang.jpeg">
-        <img class="img-circle" src="images/dixie.jpeg">
-        <img class="img-circle" src="images/cheeba.jpeg">
-        <img class="img-circle" src="images/edipure.jpeg">
-      </div>
+  <div class="row about-1">
+    <div class="col-md-4 logistics">
+      <h1>LOGISTICS</h1>
+      <br><br><br>
+      <img alt="PWN Cycle" src="images/cycle.png">
+      <br><br><br><br><br>
+      <p>PWN’s wholesale marketplace connects cannabis manufacturers directly to retailers. Dispensaries have free exclusive access to our online network where our representative products can be browsed and where orders are placed. Our easy-to-use network gives smaller, niche manufacturers exposure to outside markets, while also differentiating dispensaries from the competition by allowing them access to an array of unique, distant product lines.</p>
+    </div>
+    <div class="col-md-4 network">
+      <h1>NETWORK</h1>
+      <br><br><br>
+      <img alt="PWN Network" src="images/network.png">
+      <br><br><br><br><br>
+      <p>PWN’s wholesale marketplace connects cannabis manufacturers directly to retailers. Dispensaries have free exclusive access to our online network where our representative products can be browsed and where orders are placed. Our easy-to-use network gives smaller, niche manufacturers exposure to outside markets, while also differentiating dispensaries from the competition by allowing them access to an array of unique, distant product lines.</p>
+    </div>
+  </div>
+
+  <div class="row about-2">
+    <h3>Our Manufacturers</h3>
+    <br>
+    <div class="brands">
+      <img class="img-circle" src="images/marley.jpeg">
+      <img class="img-circle" src="images/bhang.jpeg">
+      <img class="img-circle" src="images/dixie.jpeg">
+      <img class="img-circle" src="images/cheeba.jpeg">
+      <img class="img-circle" src="images/edipure.jpeg">
     </div>
   </div>
   <div class="row contact-icons">
-    <span class="glyphicon glyphicon-phone"></span>
-    <span class="glyphicon glyphicon-envelope"></span>
+    <div class="contact call">
+      <span class="glyphicon glyphicon-phone"></span>
+      <h3>Call Us</h3>
+      <h3>(317) 460-5700</h3>
+    </div>
+    <div class="contact email">
+      <span class="glyphicon glyphicon-envelope"></span>
+      <h3><a href="mailto:blakejohansen@pacificwholesalenetwork.com">Email Us</a></h3>
+    </div>
   </div>
   <img class="bottom-banner" src="images/bottom.png">
 
